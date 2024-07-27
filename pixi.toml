@@ -1,0 +1,15 @@
+[project]
+name = "mlops_ImageClassification_cifar10"
+version = "0.1.0"
+description = "Add a short description here"
+authors = ["Reza Rz <rezarazmara1992@gmail.com>"]
+channels = ["anaconda","conda-forge"]
+platforms = ["win-64"]
+
+[tasks]
+
+[dependencies]
+python = "3.9.*"
+pytorch = ">=2.1.0,<3"
+numpy = ">=1.26.0,<2"
+torchvision = ">=0.15.2,<0.16"

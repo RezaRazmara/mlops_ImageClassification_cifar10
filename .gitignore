@@ -1,0 +1,6 @@
+# pixi environments
+.pixi
+*.egg-info
+data/raw/*
+data/processed/test_data.npy
+data/processed/train_data.npy
